@@ -1,2 +1,1 @@
-# velosjavascriptsafety
-javascripts wer have in velos 
+just learnng how to work with this
