@@ -6819,6 +6819,9 @@
         for (; ak < al; ak++) {
             if ((aj = arguments[ak]) != null) {
                 for (var ai in aj) {
+                    if (ai === "__proto__" || ai === "constructor") {
+                        continue;
+                    }
                     var an = am[ai]
                       , ao = aj[ai];
                     if (am === ao) {
